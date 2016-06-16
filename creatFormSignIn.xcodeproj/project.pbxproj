@@ -12,6 +12,7 @@
 		142E2F2B1D11B70B00D81732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142E2F291D11B70B00D81732 /* Main.storyboard */; };
 		142E2F2D1D11B70B00D81732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142E2F2C1D11B70B00D81732 /* Assets.xcassets */; };
 		142E2F301D11B70B00D81732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142E2F2E1D11B70B00D81732 /* LaunchScreen.storyboard */; };
+		14E327E51D122ECE00639B13 /* LogInBackGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14E327E41D122ECE00639B13 /* LogInBackGround.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		142E2F2C1D11B70B00D81732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		142E2F2F1D11B70B00D81732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		142E2F311D11B70B00D81732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E327E41D122ECE00639B13 /* LogInBackGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LogInBackGround.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			children = (
 				142E2F241D11B70B00D81732 /* creatFormSignIn */,
 				142E2F231D11B70B00D81732 /* Products */,
+				14E327E41D122ECE00639B13 /* LogInBackGround.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +63,16 @@
 				142E2F2C1D11B70B00D81732 /* Assets.xcassets */,
 				142E2F2E1D11B70B00D81732 /* LaunchScreen.storyboard */,
 				142E2F311D11B70B00D81732 /* Info.plist */,
+				14E327E31D122E4900639B13 /* Image */,
 			);
 			path = creatFormSignIn;
+			sourceTree = "<group>";
+		};
+		14E327E31D122E4900639B13 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 				142E2F301D11B70B00D81732 /* LaunchScreen.storyboard in Resources */,
 				142E2F2D1D11B70B00D81732 /* Assets.xcassets in Resources */,
 				142E2F2B1D11B70B00D81732 /* Main.storyboard in Resources */,
+				14E327E51D122ECE00639B13 /* LogInBackGround.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +300,7 @@
 				142E2F361D11B70B00D81732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
